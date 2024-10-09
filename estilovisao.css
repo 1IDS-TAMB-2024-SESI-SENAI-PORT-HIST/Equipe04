@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+}
+body{
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+nav{
+	padding:0;
+	background-color:#ffdb5f;
+	
+}
+main{
+	/*border: 1px solid gray;*/
+	padding: 8px;
+	background-color:#fff8df;
+	padding-left: 15%;
+    padding-right: 15%;
+	padding-top:15%;
+}
+@font-face {
+    font-family: 'ahkio';
+    src: local('ahkio'), url('Ahkio-W00-Bold.ttf') format('truetype');
+}
+
+#imagem_titulo{
+	width:30%;
+	height:20%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.subtitulo:link{
+		color: #000000;
+}
+.subtitulo:visited{
+		color: #FFCC00;
+}
+.subtitulo:hover{
+		font-size: 130%;
+}
+.subtitulo{
+	text-align:center;
+}
+
+.primeiro_realismo{
+	text-align:center;
+}
+
+.data:link{
+		color: #000000;
+}
+.data:visited{
+		color: #FFCC00;
+}
+.data:hover{
+		font-size: 140%;
+}
+.data{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	background-color: #ffdb5f;
+	padding:10px;
+}
+
+.realismo{
+	text-align:center;
+	font-size:180%;
+	text-indent:30px;
+	color: #6d6552;
+}
+
+.Naturalismo{
+	text-align:center;
+	font-size:180%;
+	text-indent:30px;
+	color: #6d6552;
+}
+
+.parnasianismo{
+	text-align:center;
+	font-size:180%;
+	text-indent:30px;
+	color: #6d6552;
+}
+
+.CL:hover{
+	color:#e4d18f;
+}
+.CH:hover{
+	color:#e4d18f;
+}
+.OA:hover{
+	color:#e4d18f;
+}
+.CL {
+	text-align:center;
+}
+.CH{
+	text-align:center;
+}
+.OA{
+	text-align:center;
+}
+
+#tabela1{
+	padding:8px;
+	text-align:center;
+	border-collapse: collapse;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:justify;
+	text-indent:30px;
+	text-shadow:2px 2px 5px #aaaaaa;
+}
+#tabela1 td:hover{
+	background-color: #ffdb5f;
+}
+#tabela1 td{
+		padding:8px;
+		border:1px solid #000000;
+}
+
+p{
+	font-size: 110%;
+}
+nav{
+	top:0;
+	position:fixed;
+	width:100%;
+}
+
+ul{
+	list-style-type:none;
+	overflow:hidden;
+	background-color:#e4d18f;
+	margin-top:12px;
+	top:0;
+	width:100%;
+    position: relative;
+	
+}
+
+ul a{
+	text-decoration: none;
+}
+ul li{
+	padding: 12px;
+	float:left;
+	
+}
+li a{
+	color: black;
+}
